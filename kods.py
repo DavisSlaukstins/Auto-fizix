@@ -45,9 +45,9 @@ while True:
 #definēju lietas
 
 r = 8.31
-t = data.temperature
+T = data.temperature
 p = data.pressure
-t = t+273
+t = T+273
 #veicu apreikinus
 
 m1 = v*p
