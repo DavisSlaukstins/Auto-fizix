@@ -6,3 +6,4 @@ Ar šo iekārtu var noteikt gāzes masu telpā/traukā. Tev jāizvēlās viela, 
 ## Prototips
 
 ## Blokshēma
+<img src="https://github.com/DavisSlaukstins/Auto-fizix/blob/master/bloksh%C4%93ma.jpg" width="250" height="200">
