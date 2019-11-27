@@ -39,7 +39,7 @@ while True:
 
 # w = vielas nosaukums, v = tilpums, m = molmasa.
 #tilpums *spiediens = masa/ mol masa * konstante *temperatura
-#masa = (tilpums * spiediens / (konstante * temperatura)) / mol masa
+#masa = spiediens*tilpums*molmasa/r*t
 #v2 = 3RT/M
 
 #definēju lietas
@@ -50,10 +50,9 @@ p = data.pressure
 t = T+273
 #veicu apreikinus
 
-m1 = v*p
+m1 = v*p*M
 m2 = r*t
-m3 = m1/m2
-m = m3/M
+m = m1/m2
 v2 = 3*r*t/M
 v = math.sqrt(v2)
 
