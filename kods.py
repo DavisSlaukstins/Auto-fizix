@@ -23,7 +23,7 @@ while True:
 
 while True:
     try:
-        v = float (input ("Ievadi trauka/telpas tilpumu : "))
+        v = float (input ("Ievadi trauka/telpas tilpumu m3: "))
         break
     except ValueError:
         print("Tāda vērtība nestrādā")
@@ -32,7 +32,7 @@ while True:
 
 while True:
     try:
-        M = float (input ("Ievadi gāzes molmasu : "))
+        M1 = float (input ("Ievadi gāzes molmasu g/mol: "))
         break
     except ValueError:
         print("Tāda vērtība nestrādā")
@@ -43,7 +43,7 @@ while True:
 #v2 = 3RT/M
 
 #definēju lietas
-
+M = M1*10*10*10
 r = 8.31
 T = data.temperature
 p = data.pressure
@@ -60,9 +60,9 @@ v = math.sqrt(v2)
 #paradu nepieciesamo
 
 print("")
-print(w," masa ir ", m)
+print(w," masa ir ", m,"g")
 print("")
-print(w," ātrums ir ", v)
+print(w," ātrums ir ", v,"m/s")
 print("")
 #print(data.timestamp)
 #print(data.temperature)
