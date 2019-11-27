@@ -1,6 +1,12 @@
 import smbus2
 import bme280
 import math
+import RPi.GPIO as GPIO
+import time
+import random
+
+GPIO.setmode(GPIO.BCM)
+GPIO.setwarnings(False)
 
 port = 1
 address = 0x76
@@ -18,7 +24,16 @@ while True:
         break
     except ValueError:
         print("Tāda vērtība nestrādā")
-
+        GPIO.output(27,GPIO.HIGH)
+        time.sleep(0.5)
+        GPIO.output(27,GPIO.LOW)
+        time.sleep(0.5)
+        GPIO.output(27,GPIO.HIGH)
+        time.sleep(0.5)
+        GPIO.output(27,GPIO.LOW)
+GPIO.output(27,GPIO.HIGH)
+time.sleep(0.5)
+GPIO.output(27,GPIO.LOW)
 #pieprasa tilpumu
 
 while True:
@@ -27,6 +42,16 @@ while True:
         break
     except ValueError:
         print("Tāda vērtība nestrādā")
+        GPIO.output(27,GPIO.HIGH)
+        time.sleep(0.5)
+        GPIO.output(27,GPIO.LOW)
+        time.sleep(0.5)
+        GPIO.output(27,GPIO.HIGH)
+        time.sleep(0.5)
+        GPIO.output(27,GPIO.LOW)
+GPIO.output(27,GPIO.HIGH)
+time.sleep(0.5)
+GPIO.output(27,GPIO.LOW)
 
 #pieprasa vielas molmasu
 
@@ -36,6 +61,16 @@ while True:
         break
     except ValueError:
         print("Tāda vērtība nestrādā")
+        GPIO.output(27,GPIO.HIGH)
+        time.sleep(0.5)
+        GPIO.output(27,GPIO.LOW)
+        time.sleep(0.5)
+        GPIO.output(27,GPIO.HIGH)
+        time.sleep(0.5)
+        GPIO.output(27,GPIO.LOW)
+GPIO.output(27,GPIO.HIGH)
+time.sleep(0.5)
+GPIO.output(27,GPIO.LOW)
 
 # w = vielas nosaukums, v = tilpums, m = molmasa.
 #tilpums *spiediens = masa/ mol masa * konstante *temperatura
