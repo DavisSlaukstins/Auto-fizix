@@ -46,10 +46,10 @@ while True:
 M = M1/1000
 r = 8.31
 T = data.temperature
-p = data.pressure
+p1 = data.pressure
 t = T+273
 #veicu apreikinus
-
+p = p1*100
 m1 = v*p*M
 m2 = r*t
 m = m1/m2
