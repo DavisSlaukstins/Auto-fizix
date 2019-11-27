@@ -59,7 +59,7 @@ v = math.sqrt(v2)
 #paradu nepieciesamo
 
 print("")
-print(w," masa ir ", m,"g")
+print(w," masa ir ", m,"kg")
 print("")
 print(w," ātrums ir ", v,"m/s")
 print("")
