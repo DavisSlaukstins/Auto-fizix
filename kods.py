@@ -7,6 +7,7 @@ import random
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
+GPIO.setup(27,GPIO.OUT)
 
 port = 1
 address = 0x76
