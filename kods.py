@@ -43,7 +43,7 @@ while True:
 #v2 = 3RT/M
 
 #definēju lietas
-M = M1*10*10*10
+M = M1/1000
 r = 8.31
 T = data.temperature
 p = data.pressure
