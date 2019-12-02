@@ -97,8 +97,8 @@ melody = [
  
   notes['G6'], notes['E7'], notes['G7'],
   notes['A7'], 0, notes['F7'], notes['G7'],
-  0, notes['E7'], 0, notes['C7'],
-  notes['D7'], notes['B6'], 0, 0
+  0, 0, notes['C7'], notes['E7'],
+  notes['G7'], notes['A7'], notes['B7'], notes['C7']
 ]
 tempo = [
   24, 24, 24, 24,
@@ -123,8 +123,8 @@ tempo = [
  
   29, 29, 29,
   24, 24, 24, 24,
-  24, 24, 24, 24,
-  2, 24, 24, 24,
+  24, 4, 12, 12,
+  12, 24, 24, 4,
 ]
 
 
