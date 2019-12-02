@@ -262,7 +262,6 @@ if __name__ == '__main__':		# Program start from here
 		print("Veicu apreikinus")
 		print("")
 		play(melody, tempo, 0.3, 0.800)
-		time.sleep(2)
 		print("")
 		print("Pabeidzu!")
 		print("")
