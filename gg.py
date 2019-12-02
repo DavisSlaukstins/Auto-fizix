@@ -1,8 +1,12 @@
 import RPi.GPIO as GPIO
 import time
+import random
+import smbus2
+import bme280
+import math
 
 buzzer_pin = 27
-
+#NOTIS
 notes = {
 	'B0' : 31,
 	'C1' : 33, 'CS1' : 35,
@@ -149,6 +153,7 @@ def setup():
 	GPIO.setmode(GPIO.BCM)
 	GPIO.setup(buzzer_pin, GPIO.IN)
 	GPIO.setup(buzzer_pin, GPIO.OUT)
+	GPIO.setwarnings(False)
 	
 def destroy():
 	GPIO.cleanup()				# Release resource
