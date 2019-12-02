@@ -185,7 +185,7 @@ if __name__ == '__main__':		# Program start from here
 		setup()
 
 		while True:
-        	try:
+			try:
         		w = str (input ("Gādā gāzē atradas mērinstruments : "))
         		break
     		except ValueError:
