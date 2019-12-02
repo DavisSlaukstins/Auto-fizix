@@ -186,7 +186,7 @@ if __name__ == '__main__':		# Program start from here
 
 		while True:
 			try:
-        		w = str (input ("Gādā gāzē atradas mērinstruments : "))
+				w = str (input ("Gādā gāzē atradas mērinstruments : "))
         		break
     		except ValueError:
 				print("Tāda vērtība nestrādā")
