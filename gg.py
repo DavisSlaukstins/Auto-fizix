@@ -170,7 +170,7 @@ if __name__ == '__main__':		# Program start from here
 	try:
 		setup()
 		
-		play(melody, tempo, 1.3, 0.800)
+		play(melody, tempo, 6.3, 0.800)
 		time.sleep(2)
 		
 		destroy()
