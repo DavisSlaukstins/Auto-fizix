@@ -188,7 +188,7 @@ if __name__ == '__main__':		# Program start from here
 			try:
 				w = str (input ("Gādā gāzē atradas mērinstruments : "))
 				break
-    		except ValueError:
+			except ValueError:
 				print("Tāda vērtība nestrādā")
 				GPIO.output(27,GPIO.HIGH)
 				time.sleep(0.5)
